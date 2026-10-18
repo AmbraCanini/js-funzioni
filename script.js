@@ -9,9 +9,17 @@
 
 
 // capitolo 2 Il valore di ritorno: return
-function calcoloEta() {
-    return 2026 - 1994
+//function calcoloEta() {
+//    return 2026 - 1994
+//}
+
+//const eta = calcoloEta();
+//console.log(eta);
+
+//capitolo 3 parametri
+function calcolaArea(base, altezza) {
+    return base * altezza;
 }
 
-const eta = calcoloEta();
-console.log(eta);
+const area = calcolaArea(5, 10)
+console.log(calcolaArea(5, 10));
