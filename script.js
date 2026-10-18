@@ -38,19 +38,30 @@
 
 //cap 5 le quattro regole d'oro
 
-function mediaVoti(voto1, voto2, voto3) {
-    return (voto1 + voto2 + voto3) / 3;
+//function mediaVoti(voto1, voto2, voto3) {
+//    return (voto1 + voto2 + voto3) / 3;
+//}
+//
+//function promozione(media) {
+//    return media >= 6;
+//}
+
+//const mediaStudente = mediaVoti(8, 9, 10);
+//const risultato = promozione(mediaStudente);
+
+//if (risultato === true) {
+//    console.log('Promosso con media ' + mediaStudente);
+//} else {
+//    console.log('Bocciato con media ' + mediaStudente);
+//}
+
+// cap6 Eventi sui tag HTML
+function generaNumero() {
+    return Math.floor(Math.random() * 6) + 1;
 }
 
-function promozione(media) {
-    return media >= 6;
+function tiraDado() {
+    const risultato = generaNumero();
+    alert(`hai ottenuto ${risultato}`);
 }
 
-const mediaStudente = mediaVoti(8, 9, 10);
-const risultato = promozione(mediaStudente);
-
-if (risultato === true) {
-    console.log('Promosso con media ' + mediaStudente);
-} else {
-    console.log('Bocciato con media ' + mediaStudente);
-}
