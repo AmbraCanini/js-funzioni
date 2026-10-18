@@ -52,7 +52,15 @@ listaSpesa.forEach(function (prodotto) {
 
 // cap 6 some
 
-const numeri = [2, 4, 7]
-const numeriDispari = numeri.some(numeri => numeri % 2 !== 0);
+//const numeri = [2, 4, 7]
+//const numeriDispari = numeri.some(numeri => numeri % 2 !== 0);
 
-console.log(numeriDispari);
+//console.log(numeriDispari);
+
+
+// cap 7 every
+
+const numeri = [20, 15, 18]
+const importi = numeri.every(importo => importo >= 10);
+console.log(importi)
+
