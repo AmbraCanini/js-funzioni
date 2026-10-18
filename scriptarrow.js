@@ -30,3 +30,12 @@ listaSpesa.forEach(function (prodotto) {
 
 //const prezziScontati = prezzi.map(prezzo => prezzo * 0.9);
 //console.log(prezziScontati);
+
+
+
+// cap 4 find
+
+const prodotti = ["latte", "pane", "uova"]
+
+const prodottoTrovato = prodotti.find(prodotto => prodotto.includes("e"));
+console.log(prodottoTrovato);
