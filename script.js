@@ -85,3 +85,14 @@ function tiraDado() {
     const risultato = generaNumero();
     alert(`hai ottenuto ${risultato}`);
 }
+
+//esercizio finale calcolo iva
+
+function calcoloIva(prezzo, iva) {
+    return prezzo * (1 + iva / 100);
+}
+
+function calcolaPrezzo() {
+    const prezzoFinale = calcoloIva(100, 22);
+    alert(`il prezzo finale è ${prezzoFinale}`);
+}
