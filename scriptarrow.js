@@ -35,7 +35,7 @@ listaSpesa.forEach(function (prodotto) {
 
 // cap 4 find
 
-const prodotti = ["latte", "pane", "uova"]
+//const prodotti = ["latte", "pane", "uova"]
 
-const prodottoTrovato = prodotti.find(prodotto => prodotto.includes("e"));
-console.log(prodottoTrovato);
+//const prodottoTrovato = prodotti.find(prodotto => prodotto.includes("e"));
+//console.log(prodottoTrovato); 
