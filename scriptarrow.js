@@ -47,3 +47,12 @@ listaSpesa.forEach(function (prodotto) {
 //const numeri = [4, 9, 12, 3]
 //const numeriValidi = numeri.filter(numeri => numeri >= 5);
 //console.log(numeriValidi);
+
+
+
+// cap 6 some
+
+const numeri = [2, 4, 7]
+const numeriDispari = numeri.some(numeri => numeri % 2 !== 0);
+
+console.log(numeriDispari);
