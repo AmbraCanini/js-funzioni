@@ -16,6 +16,7 @@
 //const eta = calcoloEta();
 //console.log(eta);
 
+
 ////capitolo 3 parametri
 //function calcolaArea(base, altezza) {
 //    return base * altezza;
@@ -24,12 +25,32 @@
 //const area = calcolaArea(5, 10)
 //console.log(calcolaArea(5, 10));
 
+
 //scope & visibilità
+//function convertiInEuro(dollari, tasso) {
+//    return dollari / tasso;
+//
+//}
+//
+//const euro = convertiInEuro(100, 1.12);
+//console.log(euro);
 
-function convertiInEuro(dollari, tasso) {
-    return dollari / tasso;
 
+//cap 5 le quattro regole d'oro
+
+function mediaVoti(voto1, voto2, voto3) {
+    return (voto1 + voto2 + voto3) / 3;
 }
 
-const euro = convertiInEuro(100, 1.12);
-console.log(euro);
+function promozione(media) {
+    return media >= 6;
+}
+
+const mediaStudente = mediaVoti(8, 9, 10);
+const risultato = promozione(mediaStudente);
+
+if (risultato === true) {
+    console.log('Promosso con media ' + mediaStudente);
+} else {
+    console.log('Bocciato con media ' + mediaStudente);
+}
