@@ -66,8 +66,7 @@
 //}
 
 
-//esercizio finale 
-
+//esercizio finale area
 function calcolaArea(base, altezza) {
     return base * altezza;
 }
@@ -77,3 +76,12 @@ function risultato() {
     alert(`l'area del rettangolo è ${area}`);
 }
 
+//esercizio finale dado
+function generaNumero() {
+    return Math.floor(Math.random() * 6) + 1;
+}
+
+function tiraDado() {
+    const risultato = generaNumero();
+    alert(`hai ottenuto ${risultato}`);
+}
