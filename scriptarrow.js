@@ -60,7 +60,35 @@ listaSpesa.forEach(function (prodotto) {
 
 // cap 7 every
 
-const numeri = [20, 15, 18]
-const importi = numeri.every(importo => importo >= 10);
-console.log(importi)
+//const numeri = [20, 15, 18]
+//const importi = numeri.every(importo => importo >= 10);
+//console.log(importi)
 
+
+
+//ultimo esercizio
+
+const prodotti = ["frigorifero", "tv", "tavolo"];
+const prezzi = [500, 250, 200];
+
+prodotti.forEach(function (prodotto) {
+    console.log(`prodotto disponibile: ${prodotto}`);
+})
+
+const prezziScontati = prezzi.map(prezzo => prezzo * 0.9);
+console.log(prezziScontati);
+
+const prodottoTrovato = prodotti.find(prodotto => prodotto === "tavolo");
+console.log(prodottoTrovato);
+
+const prezzoValido = prezzi.filter(prezzo => prezzo >= 300);
+console.log(prezzoValido);
+
+const prodottoEconomico = prezzi.some(prezzo => prezzo <= 200);
+console.log(prodottoEconomico);
+
+const importiValidi = prezzi.every(prezzo => prezzo >= 100);
+console.log(importiValidi);
+
+const totale = prezziScontati.reduce((a, b) => a + b, 0);
+console.log(totale);
