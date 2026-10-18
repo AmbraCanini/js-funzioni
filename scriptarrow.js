@@ -38,4 +38,12 @@ listaSpesa.forEach(function (prodotto) {
 //const prodotti = ["latte", "pane", "uova"]
 
 //const prodottoTrovato = prodotti.find(prodotto => prodotto.includes("e"));
-//console.log(prodottoTrovato); 
+//console.log(prodottoTrovato);
+
+
+
+// cap 5 filter
+
+//const numeri = [4, 9, 12, 3]
+//const numeriValidi = numeri.filter(numeri => numeri >= 5);
+//console.log(numeriValidi);
