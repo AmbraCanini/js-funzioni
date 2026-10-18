@@ -16,10 +16,20 @@
 //const eta = calcoloEta();
 //console.log(eta);
 
-//capitolo 3 parametri
-function calcolaArea(base, altezza) {
-    return base * altezza;
+////capitolo 3 parametri
+//function calcolaArea(base, altezza) {
+//    return base * altezza;
+//}
+//
+//const area = calcolaArea(5, 10)
+//console.log(calcolaArea(5, 10));
+
+//scope & visibilità
+
+function convertiInEuro(dollari, tasso) {
+    return dollari / tasso;
+
 }
 
-const area = calcolaArea(5, 10)
-console.log(calcolaArea(5, 10));
+const euro = convertiInEuro(100, 1.12);
+console.log(euro);
