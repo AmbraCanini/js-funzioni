@@ -56,12 +56,24 @@
 //}
 
 // cap6 Eventi sui tag HTML
-function generaNumero() {
-    return Math.floor(Math.random() * 6) + 1;
+//function generaNumero() {
+//    return Math.floor(Math.random() * 6) + 1;
+//}
+
+//function tiraDado() {
+//    const risultato = generaNumero();
+//    alert(`hai ottenuto ${risultato}`);
+//}
+
+
+//esercizio finale 
+
+function calcolaArea(base, altezza) {
+    return base * altezza;
 }
 
-function tiraDado() {
-    const risultato = generaNumero();
-    alert(`hai ottenuto ${risultato}`);
+function risultato() {
+    const area = calcolaArea(5, 10);
+    alert(`l'area del rettangolo è ${area}`);
 }
 
