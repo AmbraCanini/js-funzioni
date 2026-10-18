@@ -21,3 +21,12 @@ listaSpesa.forEach(function (prodotto) {
 })
 
 //listaSpesa.forEach(prodotto => console.log(`articolo presente: ${prodotto}`));
+
+
+
+// cap 3 map
+
+//const prezzi = [15, 25, 35]
+
+//const prezziScontati = prezzi.map(prezzo => prezzo * 0.9);
+//console.log(prezziScontati);
